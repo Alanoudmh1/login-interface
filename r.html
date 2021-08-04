@@ -1,0 +1,58 @@
+
+<html  lang="en">
+<head>
+    <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      
+      <title>Robot Map</title>
+      <h1 span style="color:rgb(4, 56, 56)" align=center></span> Robot Map  </h1><br><br><br><br>
+
+
+</head>
+
+<body background="file:///C:/Users/Alanoud/Desktop/robot-hd-desktop-wallpaper-09670%20(5).jpg">
+<form action="tt.php" method="POST">
+    
+        
+<center>
+    <input type="submit" value = "Forward" name ='Forward'  style="font-size:30px; background: rgb(78, 153, 115); border-radius: 70px;" > 
+    <br>  
+    <br>
+    <br>
+    <input type="submit" value = "Left" name ="Left"  style="font-size: 30px; background: rgb(78, 153, 115); border-radius: 70px;" >
+     <br> 
+     <br>
+     <br>
+    <input type="submit" value = "Right" name ="Right" style="font-size: 30px; background: rgb(78, 153, 115); border-radius: 70px; color: rgb(19, 14, 14);" >
+   <br>
+   <br>
+   <br>
+   <input type="submit" value = "Backward" name ="Backward" style="font-size: 30px; background: rgb(78, 153, 115); border-radius: 70px; color: rgb(19, 14, 14);" >
+    <br>
+    <br>
+    <br>
+    <input type="submit" value = "Stop" name ="Stop" style="font-size: 30px; background: rgb(170, 5, 5); border-radius: 70px; color: rgb(19, 14, 14);" >
+   </form>
+    
+    </center>
+    <script>
+        window.watsonAssistantChatOptions = {
+            integrationID: "f826e197-a38a-4b7f-ab59-131aa81c0519", // The ID of this integration.
+            region: "eu-gb", // The region your integration is hosted in.
+            serviceInstanceID: "64fc6700-86c9-43dd-b234-e4024102ac56", // The ID of your service instance.
+            onLoad: function(instance) { instance.render(); }
+          };
+        setTimeout(function(){
+          const t=document.createElement('script');
+          t.src="https://web-chat.global.assistant.watson.appdomain.cloud/loadWatsonAssistantChat.js";
+          document.head.appendChild(t);
+        });
+      </script>
+</body>
+
+
+</html>
+
+
+ 
